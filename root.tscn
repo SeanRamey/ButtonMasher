@@ -1,0 +1,98 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://green-button-unpressed.png" type="Texture" id=1]
+[ext_resource path="res://green-button-pressed.png" type="Texture" id=2]
+
+[node name="root" type="Node2D"]
+
+[node name="Timer" type="Timer" parent="."]
+autostart = true
+
+[node name="ProgressBar" type="ProgressBar" parent="."]
+margin_left = 137.068
+margin_top = 137.116
+margin_right = 371.068
+margin_bottom = 154.116
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+step = 1.0
+percent_visible = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="GridContainer" type="GridContainer" parent="."]
+margin_left = 63.8153
+margin_top = 53.816
+margin_right = 495.815
+margin_bottom = 335.816
+grow_horizontal = 2
+grow_vertical = 2
+custom_constants/vseparation = 50
+custom_constants/hseparation = 100
+columns = 3
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureButton" type="TextureButton" parent="GridContainer"]
+margin_right = 64.0
+margin_bottom = 64.0
+texture_normal = ExtResource( 1 )
+texture_pressed = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureButton2" type="TextureButton" parent="GridContainer"]
+margin_left = 164.0
+margin_right = 228.0
+margin_bottom = 64.0
+texture_normal = ExtResource( 1 )
+texture_pressed = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureButton3" type="TextureButton" parent="GridContainer"]
+margin_left = 328.0
+margin_right = 392.0
+margin_bottom = 64.0
+texture_normal = ExtResource( 1 )
+texture_pressed = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureButton4" type="TextureButton" parent="GridContainer"]
+margin_top = 114.0
+margin_right = 64.0
+margin_bottom = 178.0
+texture_normal = ExtResource( 1 )
+texture_pressed = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureButton5" type="TextureButton" parent="GridContainer"]
+margin_left = 164.0
+margin_top = 114.0
+margin_right = 228.0
+margin_bottom = 178.0
+texture_normal = ExtResource( 1 )
+texture_pressed = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureButton6" type="TextureButton" parent="GridContainer"]
+margin_left = 328.0
+margin_top = 114.0
+margin_right = 392.0
+margin_bottom = 178.0
+texture_normal = ExtResource( 1 )
+texture_pressed = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
